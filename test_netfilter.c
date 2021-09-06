@@ -58,9 +58,10 @@ static unsigned int hook_func(unsigned int hooknum,
 
 
 int init_module(void) {
-        nfho.hook              =       hook_func;
-        nfho.pf                =       PF_INET;        
-        nfho.hooknum           =       NF_INET_PRE_ROUTING;
+  // Инициализация модуля, заполняем поля nf_hook_ops
+        nfho.hook              =       hook_func;   // Ф-я при достижении hook point
+        nfho.pf                =       PF_INET;     // Семейство протоколов 
+        nfho.hooknum           =       NF_INET_PRE_ROUTING;  // Слой захвата
         nfho.priority          =       NF_IP_PRI_FIRST;
 
 
