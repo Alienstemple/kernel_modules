@@ -1,34 +1,3 @@
-
-Skip to content
-Pulls
-Issues
-Marketplace
-Explore
-@Alienstemple
-starpos /
-scull
-
-5
-49
-
-    39
-
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-
-More
-scull/snull/snull.c
-@starpos
-starpos scull source tree from ftp://ftp.oreilly.com/pub/examples/linuxdrive3/.
-Latest commit eea63a5 on Sep 14, 2010
-History
-1 contributor
-736 lines (625 sloc) 17.8 KB
 /*
  * snull.c --  the Simple Network Utility
  *
